@@ -18,7 +18,6 @@ import { writable } from "svelte/store";
 		
 		combo.push(keyCode)
 		time = now
-		console.log(combo)
 		if (JSON.stringify(combo) === JSON.stringify(list)) {
 			konami = !konami
 		}
