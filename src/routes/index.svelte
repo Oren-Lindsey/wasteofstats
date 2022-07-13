@@ -27,5 +27,5 @@
         </ul>
     </Block>
 </div>
-
+<a href="https://github.com/Oren-Lindsey/wasteofstats" class="text-center text-blue-900 underline decoration-solid hover:decoration-gray-200">Source code</a>
 
