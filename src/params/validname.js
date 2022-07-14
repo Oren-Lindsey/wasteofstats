@@ -1,6 +1,6 @@
 /** @type {import('@sveltejs/kit').ParamMatcher} */
 export function match(param) {
-    const exceptions = ['wasteof.money', 'willy.', 'someonewithalongername', 'wwwwwwwwwwwwwwwwwwwww', 'david (admin)']
+    const exceptions = ['wasteof.money', 'willy.', 'someonewithalongername', 'wwwwwwwwwwwwwwwwwwwww', 'david (admin)', 'name with a space in it']
     if (!exceptions.includes(param.toLowerCase())) {
         return /^[a-z0-9_\\-]{1,20}$/.test(param.toLowerCase());
     } else {
