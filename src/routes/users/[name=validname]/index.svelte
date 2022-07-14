@@ -36,6 +36,11 @@
         <a sveltekit:prefetch href="https://wasteof.money/posts/{posts[0].id}" class="text-center text-blue-900 underline decoration-solid hover:decoration-gray-200">View post on wasteof</a>
         </div>
     </Block>
+    {:else}
+    <Block>
+        <h2 class="text-xl text-center">Latest post</h2>
+        <div class="grid place-items-center break-words m-1"><i>This user hasn't posted yet :(</i></div>
+    </Block>
     {/if}
     {#if pinnedPosts.length > 0}
     <Block>
