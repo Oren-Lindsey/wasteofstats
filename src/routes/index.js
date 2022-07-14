@@ -5,7 +5,7 @@ export async function get() {
     const trending = await wasteof3.getTrending()
     const mostFollowed = trending.users.slice(0, -48)
     let users = shuffle(trending.users)
-    users = users.slice(0, -50)
+    users = users.slice(0, -48)
     return {
       status: 200,
       body: {
