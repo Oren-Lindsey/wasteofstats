@@ -2,7 +2,8 @@
     export let mostFollowed
     import Block from "../../components/Block.svelte"
 </script>
-<ol class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+<h1 class="font-mono text-blue-900 text-4xl">Most followed users</h1>
+<ol class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols56">
 {#each mostFollowed as user, i}
 <li><Block>
     <div class="grid place-items-center">
