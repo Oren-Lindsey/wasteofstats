@@ -1,6 +1,3 @@
-<script context="module">
-    export const prerender = true
-</script>
 <script>
     export let post
     export let comment

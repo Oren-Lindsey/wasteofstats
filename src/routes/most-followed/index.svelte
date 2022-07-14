@@ -1,6 +1,3 @@
-<script context="module">
-    export const prerender = true
-</script>
 <script>
     export let mostFollowed
     import Block from "../../components/Block.svelte"

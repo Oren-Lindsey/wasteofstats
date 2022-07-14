@@ -1,4 +1,3 @@
-<script context="module">export const prerender = true</script>
 <script>
     import "../app.css";
     import MenuBar from '../components/MenuBar.svelte';
