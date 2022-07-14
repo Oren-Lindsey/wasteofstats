@@ -3,9 +3,9 @@ import { Wasteof3 } from 'wasteof-client'
 export async function get() {
     const wasteof3 = new Wasteof3()
     const trending = await wasteof3.getTrending()
-    const mostFollowed = trending.users.slice(0, -50)
+    const mostFollowed = trending.users.slice(0, -48)
     let users = shuffle(trending.users)
-    users = users.slice(0, -48)
+    users = users.slice(0, -50)
     return {
       status: 200,
       body: {
