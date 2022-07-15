@@ -1,6 +1,3 @@
-<script context="module">
-    export const prerender = true
-</script>
 <script>
    import Block from '../components/Block.svelte'
    export let users
